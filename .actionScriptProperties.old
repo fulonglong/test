@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="index.mxml" projectUUID="1daf1dc0-a9c5-4941-a841-1b02db78e731" version="10">
+  <compiler additionalCompilerArguments="-locale zh_CN -source-path=locale/{locale}  -keep-all-type-selectors" autoRSLOrdering="true" copyDependentFiles="true" flex3CompatMode="false" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="1">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/core.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="1" linkType="1" path="libs"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/Common"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject_Extended"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LOCALE_LOCATION}/version4locale/"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="uidemo.mxml"/>
+    <application path="index.mxml"/>
+  </applications>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_RiskCtrConfirmModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_RiskCtrConfirmModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_RiskCtlConfirmDetailModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_RiskCtlConfirmDetailModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcApprModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcApprModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcApprDetailModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcApprDetailModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcWffModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcWffModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcWffDetailModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcWffDetailModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcWffStsQryModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcWffStsQryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcWorkFlowQryModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcWorkFlowQryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pwm/PWM_WdcpwmtckpmQueryModule.swf" optimize="true" sourcePath="src/modules/pwm/PWM_WdcpwmtckpmQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/pub/PUB_HomeModule.swf" optimize="true" sourcePath="src/modules/pub/PUB_HomeModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/dbp/DBP_BatchRunningModule.swf" optimize="true" sourcePath="src/modules/dbp/DBP_BatchRunningModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/dbp/DBP_ICSRunningModule.swf" optimize="true" sourcePath="src/modules/dbp/DBP_ICSRunningModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_MerchantInfoCheckModule.swf" optimize="true" sourcePath="src/modules/mer/MER_MerchantInfoCheckModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_MerchantCheckRecordModule.swf" optimize="true" sourcePath="src/modules/mer/MER_MerchantCheckRecordModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_OrderInfoMngModule.swf" optimize="true" sourcePath="src/modules/rpm/RPM_OrderInfoMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_CertSetModule.swf" optimize="true" sourcePath="src/modules/mer/MER_CertSetModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_MerchantInterfaceModule.swf" optimize="true" sourcePath="src/modules/mer/MER_MerchantInterfaceModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_WarnRuleMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_WarnRuleMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_MerchantBalanceQueryModule.swf" optimize="true" sourcePath="src/modules/mer/MER_MerchantBalanceQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_ChangeAccManualModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_ChangeAccManualModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_ChangeAccBrowseModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_ChangeAccBrowseModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_ConfirmWindowModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_ConfirmWindowModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_PylmMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_PylmMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_RoleMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_RoleMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_MerItfVerTitleWindow.swf" optimize="true" sourcePath="src/modules/cmm/CMM_MerItfVerTitleWindow.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_PWDUpdateModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_PWDUpdateModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_OperatorMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_OperatorMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_MessageMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_MessageMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_CorgBusiMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_CorgBusiMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_CORGMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_CORGMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_TrtulinfoMngModule.swf" optimize="true" sourcePath="src/modules/rpm/RPM_TrtulinfoMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_SubManageModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_SubManageModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_VoucherQryModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_VoucherQryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_InternalAccountMngModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_InternalAccountMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_HistoryBalanceQueryModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_HistoryBalanceQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_HistoryBalanceDetailQueryModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_HistoryBalanceDetailQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_HistoryInternalBalanceQueryModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_HistoryInternalBalanceQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_SubCompareModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_SubCompareModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/acm/ACM_YesterdayBalanceQueryModule.swf" optimize="true" sourcePath="src/modules/acm/ACM_YesterdayBalanceQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_AmtWarnMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_AmtWarnMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_AplmMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_AplmMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_BlackListMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_BlackListMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_BlakMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_BlakMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_BllmMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_BllmMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_ChgRejectListModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_ChgRejectListModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_CountWarnMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_CountWarnMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_CpntMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_CpntMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_EmailMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_EmailMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_LogjMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_LogjMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_RpmRejectListModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_RpmRejectListModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_RtnRejectListModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_RtnRejectListModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_RtamRejectListModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_RtamRejectListModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_RuleMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_RuleMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_RurcMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_RurcMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_TpdfMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_TpdfMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_TprlMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_TprlMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_WdcRejectListModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_WdcRejectListModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rrc/RRC_WhitMngModule.swf" optimize="true" sourcePath="src/modules/rrc/RRC_WhitMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_OperLogModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_OperLogModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_SmsFormMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_SmsFormMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_CommonFeeModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_CommonFeeModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_RoleMngTitleWindow.swf" optimize="true" sourcePath="src/modules/cmm/CMM_RoleMngTitleWindow.mxml"/>
+    <module application="src/index.mxml" destPath="modules/cmm/CMM_CommonConstantMngModule.swf" optimize="true" sourcePath="src/modules/cmm/CMM_CommonConstantMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/urm/URM_PWDResetModule.swf" optimize="true" sourcePath="src/modules/urm/URM_PWDResetModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_TradeClrMngModule.swf" optimize="true" sourcePath="src/modules/rpm/RPM_TradeClrMngModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_MerchantQuanxianModule.swf" optimize="true" sourcePath="src/modules/mer/MER_MerchantQuanxianModule.mxml"/>
+  </modules>
+  <buildCSSFiles>
+    <buildCSSFileEntry destPath="bin-debug" sourcePath="src/skins/Aura.css"/>
+    <buildCSSFileEntry destPath="bin-debug" sourcePath="src/skins/ubui.css"/>
+  </buildCSSFiles>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+</actionScriptProperties>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="index.mxml" projectUUID="1daf1dc0-a9c5-4941-a841-1b02db78e731" version="11">
+  <compiler additionalCompilerArguments="-locale zh_CN -source-path=locale/{locale}  -keep-all-type-selectors -debug=true" autoRSLOrdering="true" copyDependentFiles="true" flex3CompatMode="false" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" useFlashSDK="false" verifyDigests="true" warn="true">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="1">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/core.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="1" linkType="1" path="libs"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/Common"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LIB_LOCATION}/version4libs/FlexProject_Extended"/>
+      <libraryPathEntry kind="1" linkType="1" path="${FLEXUNIT_LOCALE_LOCATION}"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="index.mxml"/>
+  </applications>
+  <modules>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_OrderInfoMngModuleJieS.swf" optimize="true" sourcePath="src/modules/rpm/RPM_OrderInfoMngModuleJieS.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_AgentPayDetailInfo.swf" optimize="true" sourcePath="src/modules/rpm/RPM_AgentPayDetailInfo.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_RpmRejectListModule.swf" optimize="true" sourcePath="src/modules/rpm/RPM_RpmRejectListModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/mer/MER_MerchantInOutQueryModule.swf" optimize="true" sourcePath="src/modules/mer/MER_MerchantInOutQueryModule.mxml"/>
+    <module application="src/index.mxml" destPath="modules/rpm/RPM_AgentPayFailureInfo.swf" optimize="true" sourcePath="src/modules/rpm/RPM_AgentPayFailureInfo.mxml"/>
+  </modules>
+  <workers/>
+  <buildCSSFiles>
+    <buildCSSFileEntry destPath="bin-debug" sourcePath="src/skins/Aura.css"/>
+    <buildCSSFileEntry destPath="bin-debug" sourcePath="src/skins/ubui.css"/>
+  </buildCSSFiles>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+</actionScriptProperties>
